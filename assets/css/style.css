@@ -128,7 +128,7 @@ html {
     position: relative;
     margin-top: 48px;
     padding-top: 50%;
-    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -314,13 +314,89 @@ html {
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .modal-container {
     background-color: #fff;
     width: 900px;
+    max-width: calc(100% - 32px);
     min-height: 200px;
+    position: relative;
+}
+
+.modal-header {
+    background-color: #009688;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+.modal-heading-icon {
+    margin-right: 16px;
+}
+
+.modal-close {
+    position: absolute;
+    top : 0;
+    right: 0;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.modal-close:hover {
+    opacity: 1;
+}
+
+.modal-body {
+    padding: 16px;
+}
+
+.modal-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.modal-input {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+#buy-tickets {
+    background-color: #009688;
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 16px;
+    cursor: pointer;
+}
+
+#buy-tickets:hover {
+    opacity: 0.8;
+}
+
+.modal-footer {
+    padding: 16px;
+    text-align: right;
+}
+
+.modal-footer a {
+    color: #2196F3;
+}
+
+.modal.open {
+    display: flex;
 }
