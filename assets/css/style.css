@@ -36,6 +36,7 @@ html {
     right: 0;
     height: 46px;
     background-color: #000;
+    z-index: 1;
 }
 
 #nav, .subnav {
@@ -116,7 +117,34 @@ html {
 }
 
 #slider {
+    position: relative;
     margin-top: 46px;
+    padding-top: 50%;
+    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 48px;
+    color: #fff;
+
+    /* left: 50%;
+    transform: translateX(-50%); */
+
+    /* right: 0;
+    left: 0; */
+
+    width: 100%;
+    text-align: center;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+#slider .text-description {
+    font-size: 16px;
+    margin-top: 24px;
 }
 
 #content {
