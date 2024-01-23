@@ -1,3 +1,3 @@
 # The Band
 
-If https://autruonggiang.github.io/web-building-w3-the-band/ does not support images, please `git clone` to your local area, run Live Server to be able to view the website.
+If https://autruonggiang.github.io/web-building-w3-the-band/ does not support images, please `git clone` to your local, run Live Server on Visual Studio Code to be able to view the interface.
