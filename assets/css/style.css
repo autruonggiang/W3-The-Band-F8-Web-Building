@@ -225,7 +225,7 @@ html {
 }
 
 .ticket-lists li {
-    color: #757575
+    color: #757575;
     font-size: 16px;
     padding: 12px 16px;
     border-bottom: 1px solid #ddd;
@@ -249,6 +249,57 @@ html {
     line-height: 24px;
     margin-top: -2px;
     margin-right: 16px;
+}
+
+/* Places */
+.places-list {
+    margin: 32px -8px 0;
+    padding-bottom: 48px;
+}
+.place-item {
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.place-body {
+    padding: 16px;
+    font-size: 16px;
+    background-color: #fff;
+}
+.place-heading {
+    font-size: 16px;
+    font-weight: 600;
+}
+.place-time {
+    margin-top: 16px;
+    color: #757575;
+}
+.place-desc {
+    margin-top: 16px;
+    line-height: 1.5;
+}
+.place-buy-btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.place-buy-btn:hover {
+    color: #000;
+    background-color: #ccc;
 }
 
 /* Footer section */
