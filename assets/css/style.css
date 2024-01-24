@@ -224,7 +224,7 @@ html {
 
 #content .content-section {
     width: 800px;
-    padding: 64px 0;
+    padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -308,7 +308,6 @@ html {
 /* Places */
 .places-list {
     margin-top: 32px;
-    margin-bottom: 48px;
 }
 
 .place-img {
@@ -362,6 +361,11 @@ html {
     border: 1px solid #ccc;
     width: 100%;
     outline: none;
+}
+
+/* Map section */
+.map-section img {
+    width: 100%;
 }
 
 /* Footer section */
