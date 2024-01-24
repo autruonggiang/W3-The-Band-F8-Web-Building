@@ -11,3 +11,4 @@ Then on Visual Studio Code, open with Live Server (Go Live). The Live Server wil
 ## References
 - Themify icons: https://themify.me/themify-icons
 - Template Band Web: https://www.w3schools.com/w3css/tryw3css_templates_band.htm
+- F8 Course: https://fullstack.edu.vn/courses/html-css
