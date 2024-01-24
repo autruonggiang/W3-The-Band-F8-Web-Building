@@ -370,7 +370,32 @@ html {
 
 /* Footer section */
 #footer {
+    padding: 64px 16px;
+    text-align: center;
+}
 
+#footer .socials-list {
+    font-size: 24px;
+
+}
+
+#footer .socials-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .copyright a:hover,
+#footer .socials-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyright {
+    margin-top: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a {
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .modal {
