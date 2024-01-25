@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 80px;
+        }
+
+        .pc,
+        .tablet,
+        .mobile {
+            font-size: 68px;
+            display: none;
+        }
+
+        /* E. g.
+        @media (max-width: 800px) {
+            .pc,
+            .tablet,
+            .mobile {
+                color: red;
+            }
+        }
+        */
+
+        /* BREAK POINT */
+
+        /* PC */
+        @media (min-width: 1024px) {
+            .pc {
+                display: block;
+            }
+        }
+
+        /* Tablet */
+        @media (min-width: 740px) and (max-width: 1023px) {
+            .tablet {
+                display: block;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 739px) {
+            .mobile {
+                display: block;
+            }
+        }
+
+        /* 
+            PC: >= 1024px
+            Tablet: >= 740px & < 1024px
+            Mobile: < 740px
+        */
+    </style>
+</head>
+<body>
+    <!-- <h1>MEDIA QUERIES</h1> -->
+    <h2 class="pc">PC</h2>
+    <h2 class="tablet">TABLET</h2>
+    <h2 class="mobile">MOBILE</h2>
+</body>
+</html>
