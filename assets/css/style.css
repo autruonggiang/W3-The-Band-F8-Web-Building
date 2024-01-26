@@ -109,7 +109,6 @@ html {
     height: 48px;
     background-color: #000;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav, .subnav {
