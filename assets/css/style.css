@@ -51,6 +51,7 @@ html {
     display: inline-block;
     margin-top: 16px;
     border: none;
+    text-align: center;
     cursor: pointer;
 }
 
