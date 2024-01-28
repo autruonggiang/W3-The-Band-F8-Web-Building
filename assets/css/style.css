@@ -51,6 +51,7 @@ html {
     display: inline-block;
     margin-top: 16px;
     border: none;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -69,7 +70,6 @@ html {
 
 .mt-32 {
     margin-top: 32px !important;
-
 }
 
 .row {
