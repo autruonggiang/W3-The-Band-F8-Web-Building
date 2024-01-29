@@ -17,6 +17,10 @@
         padding: 16px;
     }
 
+    .contact-info {
+        line-height: 2;
+    }
+
     #footer .socials-list {
         font-size: 48px;
     }
@@ -103,6 +107,6 @@
     }
 
     .contact-form {
-        margin-top: 16px;
+        margin-top: 32px;
     }
 }
