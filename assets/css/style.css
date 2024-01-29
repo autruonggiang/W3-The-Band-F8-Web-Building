@@ -373,6 +373,20 @@ html {
     line-height: 1.5;
 }
 
+.contact-info {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    opacity: 1;
+}
+
 .contact-info i[class*="ti-"] {
     width: 32px;
     display: inline-block;
