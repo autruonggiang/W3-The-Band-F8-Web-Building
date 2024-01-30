@@ -53,6 +53,8 @@ html {
     border: none;
     text-align: center;
     cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
