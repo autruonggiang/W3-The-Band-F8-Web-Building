@@ -1,10 +1,10 @@
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 
 }
 
 /* Tablet & mobile */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .btn {
         padding: 16px 16px;
     }
@@ -45,16 +45,14 @@
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     .contact-info {
         line-height: 2;
     }
 }
 
 /* Mobile */
-
-
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
     .s-full-width,
     .s-col-full {
         width: 100% !important;
