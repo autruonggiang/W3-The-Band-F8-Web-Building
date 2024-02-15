@@ -1,7 +1,5 @@
 # The Band
-Welcome to The Band, a website designed based on the original [The Band](https://www.w3schools.com/w3css/tryw3css_templates_band.htm) and using the techniques learned in course F8.
-
-If [The Band](https://autruonggiang.github.io/W3-The-Band-F8-Web-Building/) does not support images:
+Welcome to [The Band](https://autruonggiang.github.io/W3-The-Band-F8-Web-Building/), a website designed based on the original [The Band](https://www.w3schools.com/w3css/tryw3css_templates_band.htm) and using the techniques learned in course F8.
 
 ## Installation
 
