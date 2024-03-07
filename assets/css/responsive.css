@@ -112,4 +112,12 @@
     .contact-form {
         margin-top: 32px;
     }
+
+    #footer .socials-list {
+        font-size: 32px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 4px;
+    }
 }
