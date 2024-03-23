@@ -1,4 +1,4 @@
-# The Band
+# The Band - FE
 Welcome to [The Band](https://autruonggiang.github.io/W3-The-Band-F8-Web-Building/), a website designed based on the original [The Band](https://www.w3schools.com/w3css/tryw3css_templates_band.htm) and using the techniques learned in the f8's course.
 
 ## Installation
