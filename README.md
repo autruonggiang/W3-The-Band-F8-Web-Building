@@ -1,6 +1,6 @@
 # The Band
 
-If [The Band](https://autruonggiang.github.io/W3-The-Band-F8-Web-Building/) does not support images:
+If [The Band](https://w3-the-band-f8-web-building.vercel.app) does not support images:
 
 
 ## Clone this repository
